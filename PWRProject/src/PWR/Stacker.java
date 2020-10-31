@@ -12,12 +12,17 @@ package PWR;
 public class Stacker {
     
     String name;
-    String level;
+    String flatDifficulty;
+    String helixDifficulty;
     
     
-    public Stacker (String name, String level){
-         this.name = name;
-        this.level = level;
+    
+    public Stacker (String name, String flatDifficulty, String helixDifficulty){
+        this.name = name;
+        this.flatDifficulty = flatDifficulty;
+        this.helixDifficulty = helixDifficulty;
+        
+        
         
         
     }
@@ -31,12 +36,29 @@ public class Stacker {
         this.name = name;
     }
 
-    public String getLevel() {
-        return level;
+    public String getFlatDifficulty() {
+        return flatDifficulty;
     }
 
-    public void setLevel(String level) {
-        this.level = level;
+    public void setFlatDifficulty(String flatDifficulty) {
+        this.flatDifficulty = flatDifficulty;
+    }
+    
+    public String getHelixDifficulty(){
+        return helixDifficulty;
+        
+    }
+    
+    public void setHelixDifficulty(String helixDifficulty){
+        this.helixDifficulty = helixDifficulty;
+        
+    }
+    
+    @Override
+    public String toString(){
+        return name + "is able to complete flat panels of difficulty " + flatDifficulty 
+                + "and is able to complete helix cores of difficulty " + helixDifficulty;
+        
     }
     
      
