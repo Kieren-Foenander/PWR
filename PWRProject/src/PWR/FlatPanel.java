@@ -11,6 +11,26 @@ package PWR;
  */
 public class FlatPanel extends Core {
     
+    String difficulty;
+    
+    
+    public FlatPanel(String teamName, int partNumber, String difficulty){
+        super(teamName, partNumber);
+        this.difficulty = difficulty;
+        
+    }
+    
+    public String getDificulty(){
+        return difficulty;
+        
+    }
+    
+    public void setDifficulty(String difficulty){
+        this.difficulty = difficulty;
+        
+    }
+    
+    
     
     
     
