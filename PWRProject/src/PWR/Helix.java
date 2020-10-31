@@ -22,6 +22,7 @@ public class Helix extends Core{
         
     }
     
+    @Override
     public String getDifficulty(){
         return difficulty;
         

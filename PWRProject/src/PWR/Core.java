@@ -9,7 +9,7 @@ package PWR;
  *
  * @author Kieren
  */
-public class Core {
+public abstract class Core {
     
     
     String teamName;
@@ -49,6 +49,11 @@ public class Core {
     public void setSerial(int serial) {
         this.serial = serial;
     }
+    
+    public abstract String getDifficulty();
+    
+
+
     
     
     

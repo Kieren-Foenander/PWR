@@ -20,7 +20,8 @@ public class FlatPanel extends Core {
         
     }
     
-    public String getDificulty(){
+    @Override
+    public String getDifficulty(){
         return difficulty;
         
     }

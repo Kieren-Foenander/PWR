@@ -22,9 +22,6 @@ public class Stacker {
         this.flatDifficulty = flatDifficulty;
         this.helixDifficulty = helixDifficulty;
         
-        
-        
-        
     }
     
     public String getName(){
