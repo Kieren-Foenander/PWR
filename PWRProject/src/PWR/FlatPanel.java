@@ -14,8 +14,8 @@ public class FlatPanel extends Core {
     String difficulty;
     
     
-    public FlatPanel(String teamName, int partNumber, String difficulty){
-        super(teamName, partNumber);
+    public FlatPanel(String teamName, int partNumber, int serial, String difficulty){
+        super(teamName, partNumber, serial);
         this.difficulty = difficulty;
         
     }

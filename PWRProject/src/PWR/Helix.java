@@ -15,8 +15,8 @@ public class Helix extends Core{
     
     String difficulty;
     
-    public Helix (String teamName, int partNumber, String difficulty){
-        super(teamName, partNumber);
+    public Helix (String teamName, int partNumber,int serial, String difficulty){
+        super(teamName, partNumber, serial);
         this.difficulty = difficulty;
         
         
