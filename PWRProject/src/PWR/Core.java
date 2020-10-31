@@ -14,10 +14,12 @@ public class Core {
     
     String teamName;
     int partNumber;
+    int serial;
 
-    public Core(String teamName, int partNumber) {
+    public Core(String teamName, int partNumber, int serial) {
         this.teamName = teamName;
         this.partNumber = partNumber;
+        this.serial = serial;
     }
     
     
@@ -30,15 +32,27 @@ public class Core {
         
     }
     
-    public void setTeamName(){
+    public void setTeamName(String teamName){
         this.teamName = teamName;
         
     }
     
-    public void setPartNumber(){
+    public void setPartNumber(int partNumber){
         this.partNumber = partNumber;
         
     }
+
+    public int getSerial() {
+        return serial;
+    }
+
+    public void setSerial(int serial) {
+        this.serial = serial;
+    }
+    
+    
+    
+    
     
     
     
