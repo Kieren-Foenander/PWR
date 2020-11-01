@@ -38,6 +38,8 @@ public class PWRFrame extends JFrame {
         tabbedPane = new JTabbedPane(); // creates new Tabbed Pane
         
         tabbedPane.addTab("Add Stacker", new StackerPanel()); // adds panel to tabbed pane
+        tabbedPane.addTab("Add Core", new CorePanel());
+        
         
         
         
@@ -48,7 +50,7 @@ public class PWRFrame extends JFrame {
         GroupLayout backgroundPanelLayout = new GroupLayout(backgroundPanel);
         backgroundPanel.setLayout(backgroundPanelLayout);
         backgroundPanelLayout.setHorizontalGroup(backgroundPanelLayout.createParallelGroup(GroupLayout.Alignment.LEADING)
-                .addComponent(tabbedPane, GroupLayout.DEFAULT_SIZE, 866, Short.MAX_VALUE)
+                .addComponent(tabbedPane, GroupLayout.DEFAULT_SIZE, 700, Short.MAX_VALUE)
         );
         backgroundPanelLayout.setVerticalGroup(backgroundPanelLayout.createParallelGroup(GroupLayout.Alignment.LEADING)
                 .addComponent(tabbedPane, GroupLayout.DEFAULT_SIZE, 398, Short.MAX_VALUE)

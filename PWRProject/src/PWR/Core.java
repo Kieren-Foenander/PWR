@@ -9,7 +9,7 @@ package PWR;
  *
  * @author Kieren
  */
-public abstract class Core {
+public abstract class Core implements Comparable {
     
     
     String teamName;
@@ -29,6 +29,23 @@ public abstract class Core {
         this.dateMonth = dateMonth;
         this.dateYear = dateYear;
         
+    }
+    
+    public boolean eqauals (Core other){
+        return this.getDateDay() == other.getDateDay();
+    }
+    
+    public int compareTo (Core other){
+        if (this.eqauals(other)){
+            return 0;
+            
+        }else if (getDateDay() > other.getDateDay()){
+            return 1;
+            
+        }else {
+            return -1;
+            
+        }
     }
     
     
