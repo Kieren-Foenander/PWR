@@ -9,7 +9,7 @@ package PWR;
  *
  * @author Kieren
  */
-public abstract class Core implements Comparable {
+public abstract class Core {
     
     
     String teamName;
