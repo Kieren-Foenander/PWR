@@ -53,8 +53,8 @@ public class Stacker {
     
     @Override
     public String toString(){
-        return name + "is able to complete flat panels of difficulty " + flatDifficulty 
-                + "and is able to complete helix cores of difficulty " + helixDifficulty;
+        return name + " is able to complete flat panels of difficulty " + flatDifficulty 
+                + " and is able to complete helix cores of difficulty " + helixDifficulty;
         
     }
     

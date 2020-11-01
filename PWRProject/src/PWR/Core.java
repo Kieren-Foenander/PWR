@@ -52,6 +52,11 @@ public abstract class Core {
     
     public abstract String getDifficulty();
     
+    @Override
+    public String toString(){
+        return teamName + " " + partNumber + " " + serial;
+        
+    }
 
 
     
