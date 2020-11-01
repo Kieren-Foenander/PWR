@@ -142,10 +142,7 @@ public class StackerPanel extends javax.swing.JPanel {
         Stacker input = new Stacker(name, flatDif, helixDif); // creates new stacker object
         
         stackerList.add(input); // adds new stacker to arrayList
-        
-        System.out.println(stackerList);
 
-        
     }
 
 }
